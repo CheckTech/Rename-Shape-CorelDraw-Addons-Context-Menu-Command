@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenameMe", "RenameMe\RenameMe.csproj", "{63B8E15D-3124-4B21-A0B8-26CEA4C3B360}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		2017 Debug|Any CPU = 2017 Debug|Any CPU
+		2017 Release|Any CPU = 2017 Release|Any CPU
+		2018 Debug|Any CPU = 2018 Debug|Any CPU
+		2018 Release|Any CPU = 2018 Release|Any CPU
+		2019 Debug|Any CPU = 2019 Debug|Any CPU
+		2019 Release|Any CPU = 2019 Release|Any CPU
+		2020 Debug|Any CPU = 2020 Debug|Any CPU
+		2020 Release|Any CPU = 2020 Release|Any CPU
+		X7 Debug|Any CPU = X7 Debug|Any CPU
+		X7 Release|Any CPU = X7 Release|Any CPU
+		X8 Debug|Any CPU = X8 Debug|Any CPU
+		X8 Release|Any CPU = X8 Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63B8E15D-3124-4B21-A0B8-26CEA4C3B360}.2017 Debug|Any CPU.ActiveCfg = 2017 Debug|Any CPU
+		{63B8E15D-3124-4B21-A0B8-26CEA4C3B360}.2017 Debug|Any CPU.Build.0 = 2017 Debug|Any CPU
+		{63B8E15D-3124-4B21-A0B8-26CEA4C3B360}.2017 Release|Any CPU.ActiveCfg = 2017 Release|Any CPU
+		{63B8E15D-3124-4B21-A0B8-26CEA4C3B360}.2017 Release|Any CPU.Build.0 = 2017 Release|Any CPU
+		{63B8E15D-3124-4B21-A0B8-26CEA4C3B360}.2018 Debug|Any CPU.ActiveCfg = 2018 Debug|Any CPU
+		{63B8E15D-3124-4B21-A0B8-26CEA4C3B360}.2018 Debug|Any CPU.Build.0 = 2018 Debug|Any CPU
+		{63B8E15D-3124-4B21-A0B8-26CEA4C3B360}.2018 Release|Any CPU.ActiveCfg = 2018 Release|Any CPU
+		{63B8E15D-3124-4B21-A0B8-26CEA4C3B360}.2018 Release|Any CPU.Build.0 = 2018 Release|Any CPU
+		{63B8E15D-3124-4B21-A0B8-26CEA4C3B360}.2019 Debug|Any CPU.ActiveCfg = 2019 Debug|Any CPU
+		{63B8E15D-3124-4B21-A0B8-26CEA4C3B360}.2019 Debug|Any CPU.Build.0 = 2019 Debug|Any CPU
+		{63B8E15D-3124-4B21-A0B8-26CEA4C3B360}.2019 Release|Any CPU.ActiveCfg = 2019 Release|Any CPU
+		{63B8E15D-3124-4B21-A0B8-26CEA4C3B360}.2019 Release|Any CPU.Build.0 = 2019 Release|Any CPU
+		{63B8E15D-3124-4B21-A0B8-26CEA4C3B360}.2020 Debug|Any CPU.ActiveCfg = 2020 Debug|Any CPU
+		{63B8E15D-3124-4B21-A0B8-26CEA4C3B360}.2020 Debug|Any CPU.Build.0 = 2020 Debug|Any CPU
+		{63B8E15D-3124-4B21-A0B8-26CEA4C3B360}.2020 Release|Any CPU.ActiveCfg = 2020 Release|Any CPU
+		{63B8E15D-3124-4B21-A0B8-26CEA4C3B360}.2020 Release|Any CPU.Build.0 = 2020 Release|Any CPU
+		{63B8E15D-3124-4B21-A0B8-26CEA4C3B360}.X7 Debug|Any CPU.ActiveCfg = X7 Debug|Any CPU
+		{63B8E15D-3124-4B21-A0B8-26CEA4C3B360}.X7 Debug|Any CPU.Build.0 = X7 Debug|Any CPU
+		{63B8E15D-3124-4B21-A0B8-26CEA4C3B360}.X7 Release|Any CPU.ActiveCfg = X7 Release|Any CPU
+		{63B8E15D-3124-4B21-A0B8-26CEA4C3B360}.X7 Release|Any CPU.Build.0 = X7 Release|Any CPU
+		{63B8E15D-3124-4B21-A0B8-26CEA4C3B360}.X8 Debug|Any CPU.ActiveCfg = X8 Debug|Any CPU
+		{63B8E15D-3124-4B21-A0B8-26CEA4C3B360}.X8 Debug|Any CPU.Build.0 = X8 Debug|Any CPU
+		{63B8E15D-3124-4B21-A0B8-26CEA4C3B360}.X8 Release|Any CPU.ActiveCfg = X8 Release|Any CPU
+		{63B8E15D-3124-4B21-A0B8-26CEA4C3B360}.X8 Release|Any CPU.Build.0 = X8 Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9CAD32FA-FBFD-4132-91F3-7D7AD55B2928}
+	EndGlobalSection
+EndGlobal

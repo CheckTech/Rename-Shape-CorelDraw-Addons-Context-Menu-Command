@@ -1,0 +1,52 @@
+﻿<Window x:Class="RenameMe.DockerUI"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:RenameMe"
+             mc:Ignorable="d" 
+             Width="200" Height="46" WindowStyle="None" Loaded="UserControl_Loaded" ResizeMode="NoResize" ShowInTaskbar="False" AllowsTransparency="True" Background="{x:Null}">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles/Colors.xaml"/>
+                <ResourceDictionary Source="Styles/Styles.xaml"/>
+                <ResourceDictionary Source="Resources/Images.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <ControlTemplate x:Key="LabelControlTemplate1" TargetType="{x:Type Label}">
+                <Grid><Grid Background="{TemplateBinding Background}" VerticalAlignment="Bottom" Height="10"></Grid>
+                    <Border BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" Padding="{TemplateBinding Padding}" SnapsToDevicePixels="True" CornerRadius="4">
+
+                        <ContentPresenter ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+
+
+                    </Border>
+                    
+                </Grid>
+                <ControlTemplate.Triggers>
+                    <Trigger Property="IsEnabled" Value="False">
+                        <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+                    </Trigger>
+                </ControlTemplate.Triggers>
+            </ControlTemplate>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid Margin="0,0,0,0" Background="{x:Null}">
+
+        <StackPanel Background="{x:Null}" >
+            <Label Content="New Name:" Background="#FFF4F4F4" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="9" Template="{DynamicResource LabelControlTemplate1}"/>
+            <Border Padding="2" Background="#FFF4F4F4">
+                <TextBox x:Name="textBlocShapeName" Width="196">
+                    <TextBox.ToolTip>
+                        <StackPanel>
+                            <Label Content="Enter to Rename" FontSize="10" />
+                            <Label Content="Esc to Cancel" FontSize="9" />
+                        </StackPanel>
+                    </TextBox.ToolTip>
+                </TextBox>
+            </Border>
+        </StackPanel>
+    </Grid>
+
+
+</Window>
