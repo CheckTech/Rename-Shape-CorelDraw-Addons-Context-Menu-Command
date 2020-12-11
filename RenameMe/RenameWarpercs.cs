@@ -34,7 +34,8 @@ namespace RenameMe
         }
         private void CorelApp_OnApplicationEvent(string EventName, ref object[] Parameters)
         {
-            if (EventName == "FrameworkManagerToolbarListChanged")
+            Debug.WriteLine(EventName);
+            if (EventName == "FrameworkManagerToolbarListChanged" || EventName == "ToolbarListChanged")
             {
                 Point p = new Point(0, 0);
                 GetCursorPos(out p);
@@ -47,13 +48,7 @@ namespace RenameMe
                 RenameWarpercs.corelApp.ActiveWindow.ScreenToDocument(p.X, p.Y, out xDoc, out yDoc);
                 if (rect.IsPointInside(xDoc, yDoc))
                     P = p;
-                //int x = 0;
-                //int y = 0;
-                //int w = 0;
-                //int h = 0;
-                //// RenameWarpercs.corelApp.FrameWork.Automation.GetItemScreenRect("1056b8d8-9185-46ee-af8e-77c7ba383a4e", "1056b8d8-9185-46ee-af8e-77c7ba383a4e", out x, out y, out w, out h);
-                //RenameWarpercs.corelApp.FrameWork.Automation.GetActiveMenuItemScreenRect(1, out x, out y, out w, out h);
-                //Debug.WriteLine(x);
+             
 
 
             }
